@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <script src="https://rawgit.com/donmccurdy/aframe-extras/v2.1.1/dist/aframe-extras.loaders.min.js"></script> 
+    </head>
+  <body>
+    <a-scene
+      ></a-entity>
+      <a-entity 
+      ply-model="src:dome.ply"
+        position="-33.299 -10.099 31.855"
+        scale="5 5 5"
+        rotation="-90 0 0"
+      ></a-entity>
+      <a-entity 
+      ply-model="src:boc.ply"
+      position="-2.500 -1.891 -6.864"
+      rotation="-90.000 160.000 90.000"
+      scale="1 1 1"
+        animation="
+            property: scale;
+            from: 1 1 1;
+            to: 0.3 0.3 0.3;
+            dur: 4000;
+            loop: true;
+            dir: alternate;
+            easing: easeInOutElastic;
+        "
+        animation__position="
+            property: position;
+            from: -2.500 -1.891 -6.864;
+            to: -2.500 0.000 -4.995;
+            dur: 4000;
+            loop: true;
+            dir: alternate;
+            easing: easeInOutElastic;
+        "
+      ></a-entity>
+      <a-entity 
+      ply-model="src:boxy sam.ply"
+      position="-6.737 8.362 -6.864"
+      rotation="-90.000 -90.000 90.000"
+      scale="0.8 0.8 0.8"
+        animation="
+            property: position;
+            from: -6.737 8.362 -6.864;
+            to: 5.301 9.730 -10.749;
+            dur: 7500;
+            loop: true;
+            dir: alternate;
+            easing: easeInOutExpo;
+        "
+        animation__scale="
+            property: scale;
+            from: 0.8 0.8 0.8;
+            to: 0.6 0.6 0.6;
+            dur: 7500;
+            loop: true;
+            dir: alternate;
+            easing: easeInOutExpo;
+        "
+      ></a-entity>
+      <a-entity 
+      ply-model="src:circle guy.ply"
+      position="7.626 9.751 -14.259"
+      scale="1 1 1"
+      rotation="0.000 0.000 90.000"
+        animation="
+            property: position;
+            from: 7.626 9.751 -14.259;
+            to: -2.364 7.416 -10.091;
+            dur: 7500;
+            loop: true;
+            dir: alternate;
+            easing: easeInOutExpo;
+        "
+        animation__scale="
+            property: scale;
+            from: 1 1 1;
+            to: 1.2 1.2 1.2;
+            dur: 7500;
+            loop: true;
+            dir: alternate;
+            easing: easeInOutExpo;
+        "
+      ></a-entity>
+      <a-entity 
+      ply-model="src:cube of horror.ply"
+      position="-1.292 17.831 -1.485"
+      rotation="0.000 0.000 0.000"
+      scale="0.500 0.500 0.500"
+        animation="
+            property: rotation;
+            from: 0.000 0 0;
+            to: 360 360 360;
+            dur: 3000;
+            loop: true;
+            dir: alternate;
+            easing: easeInOutElastic;
+        "
+      ></a-entity>
+      ></a-entity>
+      <a-entity 
+      ply-model="src:red.ply"
+      position="3.322 -0.613 -7.519"
+      rotation="-90.000 0.000 0.000"
+      scale="0.500 0.500 0.500"
+        animation="
+            property: position;
+            from: 3.322 -0.613 -7.519;
+            to: 3.322 -3.612 -7.519;
+            dur: 500;
+            loop: true;
+            dir: alternate;
+            easing: easeInOutQuad;
+        "
+      ></a-entity>
+      <a-entity 
+      ply-model="src:org.ply"
+      position="5.544 -0.613 -7.519"
+      rotation="-90.000 0.000 0.000"
+      scale="0.500 0.500 0.500"
+        animation="
+            property: position;
+            from: 5.544 -0.613 -7.519;
+            to: 5.544 -3.612 -7.519;
+            dur: 600;
+            loop: true;
+            dir: alternate;
+            easing: easeInOutQuad;
+        "
+      ></a-entity>
+      <a-entity 
+      ply-model="src:yel.ply"
+      position="7.768 -0.613 -7.519"
+      rotation="-90.000 0.000 0.000"
+      scale="0.500 0.500 0.500"
+        animation="
+            property: position;
+            from: 7.768 -0.613 -7.519;
+            to: 7.768 -3.612 -7.519;
+            dur: 700;
+            loop: true;
+            dir: alternate;
+            easing: easeInOutQuad;
+        "
+      ></a-entity>
+      <a-entity 
+      ply-model="src:pik.ply"
+      position="9.977 -0.613 -7.519"
+      rotation="-90.000 0.000 0.000"
+      scale="0.500 0.500 0.500"
+        animation="
+            property: position;
+            from: 9.977 -0.613 -7.519;
+            to: 9.977 -3.612 -7.519;
+            dur: 800;
+            loop: true;
+            dir: alternate;
+            easing: easeInOutQuad;
+        "
+      ></a-entity>
+      <a-entity 
+      ply-model="src:x.ply"
+      position="-8.965 0.215 15.534"
+      rotation="0.000 0.000 0.000"
+      scale="3.000 3.000 0.100"
+        animation="
+            property: rotation;
+            from: 0 0 0;
+            to: 360 0 0;
+            dur: 2000;
+            loop: true;
+            dir: alternate;
+        "
+      ></a-entity>
+      <a-entity 
+      ply-model="src:x.ply"
+      position="3.292 0.215 11.981"
+      rotation="0.000 0.000 0.000"
+      scale="2.000 2.000 0.100"
+        animation="
+            property: position;
+            from: 3.292 0.215 11.981;
+            to: -16.278 0.215 11.981;
+            dur: 3000;
+            loop: true;
+            dir: alternate;
+        "
+      ></a-entity>
+      <a-entity 
+      ply-model="src:x.ply"
+      position="-16.278 0.215 11.981"
+      rotation="0.000 0.000 0.000"
+      scale="2.000 2.000 0.100"
+        animation="
+        property: position;
+        from: -16.278 0.215 11.981;
+        to: 3.292 0.215 11.981;
+        dur: 3000;
+        loop: true;
+        dir: alternate;
+        "
+      ></a-entity>
+      <a-entity 
+      ply-model="src:x.ply"
+      position="-4.469 0.215 9.220"
+      rotation="0.000 0.000 0.000"
+      scale="1.000 1.000 0.100"
+        animation="
+            property: position;
+            from: -4.469 0.215 9.220;
+            to: -4.469 5.478 9.220
+            dur: 1;
+            loop: true;
+            dir: alternate;
+            easing: easeInOutBack
+        "
+      ></a-entity>
+      <a-entity 
+      ply-model="src:secret.ply"
+      position="-2.651 27.417 2.522"
+      rotation="-90.000 0.000 0.000"
+      scale="1.000 1.000 1.000"
+      ></a-entity>
+      </a-scene>
+      </body>
+      </html>
